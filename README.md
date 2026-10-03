@@ -12,9 +12,9 @@ Instead of building another basic CRUD application, I wanted to understand how d
 
 ## 🚀 Live Demo
 
-🌐 **Frontend:** `YOUR_VERCEL_URL`
+🌐 **Frontend:** https://code-roast-ai-ruby.vercel.app/
 
-⚙️ **Backend:** `YOUR_RENDER_URL`
+⚙️ **Backend:** https://coderoastai.onrender.com/
 
 > Replace the above URLs after deployment.
 
@@ -338,7 +338,7 @@ VITE_API_URL=http://127.0.0.1:5000/api/roast
 For production, configure the deployed backend URL:
 
 ```env
-VITE_API_URL=https://YOUR-BACKEND-URL/api/roast
+VITE_API_URL=https://coderoastai.onrender.com//api/roast
 ```
 
 > **Important:** Never upload your real API key to GitHub.
@@ -458,7 +458,7 @@ dist
 Add the environment variable:
 
 ```text
-VITE_API_URL=https://YOUR-BACKEND-URL/api/roast
+VITE_API_URL=https://coderoastai.onrender.com//api/roast
 ```
 
 ---
