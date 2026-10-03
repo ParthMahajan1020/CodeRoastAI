@@ -14,7 +14,9 @@ import {
   Zap,
 } from "lucide-react";
 
-const API_URL = "http://127.0.0.1:5000/api/roast";
+const API_URL =
+  import.meta.env.VITE_API_URL ||
+  "http://127.0.0.1:5000/api/roast";
 
 const DEFAULT_CODE = `public class Main {
     public static void main(String[] args) {
